@@ -1,0 +1,154 @@
+#please use python 3.x version
+#python3 filename.py(in linux terminal)
+#install numpy module
+
+**********************q1********************
+For (a) part :
+Using Midpoint Method, estimated value of the integral = 0.74048
+Diffirence between actual and calculated value : 0.117255
+Using Trapezoidal Method, estimated value of the integral = 0.392699
+Diffirence between actual and calculated value : 0.230526
+Using Simpsons Method, estimated value of the integral = 0.624553
+Diffirence between actual and calculated value : 0.001328
+
+For (b) part :
+Using Midpoint Method, estimated value of the integral = 0.628319
+Diffirence between actual and calculated value : 0.418879
+Using Trapezoidal Method, estimated value of the integral = 1.745329
+Diffirence between actual and calculated value : 0.698131
+Using Simpsons Method, estimated value of the integral = 1.000655
+Diffirence between actual and calculated value : 0.046543
+
+For (c) part :
+Using Midpoint Method, estimated value of the integral = 0.778801
+Diffirence between actual and calculated value : 0.031977
+Using Trapezoidal Method, estimated value of the integral = 0.68394
+Diffirence between actual and calculated value : 0.062884
+Using Simpsons Method, estimated value of the integral = 0.74718
+Diffirence between actual and calculated value : 0.000356
+**********************q2********************
+For (a) part :
+Using Trapezoidal Method, estimated value of the integral = 7.5
+
+For (b) part :
+Using Simpsons Method, estimated value of the integral = 7.166667
+
+**********************q3********************
+Firstly, x was substituted by t/(1-t) to reduce the range to 0 to 1
+The estimate using compsoite trapezoidal method:  0.5098915989159891
+The estimate using compsoite simpon's method:  0.5205962059620596
+The Actual value of the integral : 0.5235987755982988
+**********************q4********************
+The actual value of the Integral = 1.09861228866811
+The estimate using trapezoidal method:  1.3333333333333333
+The estimate using simpon's method:  1.1111111111111112
+**********************q5********************
+Part (a)
+Constraints : h <= 0.0438178046004133 and n >= 46
+Required value of n: 46
+Correpsonding value of h: 0.043478260869565216
+The estimate using compsoite trapezoidal method:  0.4054705778040843
+The diffirence between actual and caluclated value: 5.469695920301554e-06
+
+Part (b)
+Constraints : h <= 0.44267276788012866 and n >= 6
+Required value of n: 6
+Correpsonding value of h: 0.3333333333333333
+The estimate using compsoite simpsons method:  0.4054663745840217
+The diffirence between actual and caluclated value: 1.2664758576863555e-06
+
+Part (c)
+Constraints : h <= 0.03098386676965934 and n >= 65
+Required value of n: 65
+Correpsonding value of h: 0.03076923076923077
+The estimate using compsoite midpoint method:  0.40546373841574274
+The diffirence between actual and caluclated value: 1.3696924212602823e-06
+**********************q6********************
+Part (a)
+Table:
+
+      h         T(h/2)     Error value
+1.5000000000 0.9173076923 0.5094339623
+0.7500000000 1.0970043616 0.1638067045
+0.3750000000 1.1384585664 0.0364125722
+0.1875000000 1.1481180340 0.0084133053
+0.0937500000 1.1505008862 0.0020711433
+0.0468750000 1.1510947524 0.0005159143
+0.0234375000 1.1512431055 0.0001288634
+0.0117187500 1.1512801867 0.0000322087
+0.0058593750 1.1512894566 0.0000080517
+0.0029296875 1.1512917740 0.0000020129
+0.0014648438 1.1512923534 0.0000005032
+
+Estimated value: 1.1512923533779342
+Number of iterations taken : 11
+Number of fucntion calls : 2049
+Diffirence between actual and estimated value : 1.9311908872055028e-07
+
+Part (b)
+Table:
+
+      h         T(h/2)     Error value
+0.4750000000 5.8922619048 0.6928982726
+0.2375000000 4.0836933187 0.4428757120
+0.1187500000 3.3570758478 0.2164435669
+0.0593750000 3.1017719812 0.0823090376
+0.0296875000 3.0241335026 0.0256729667
+0.0148437500 3.0029962433 0.0070387232
+0.0074218750 2.9975598200 0.0018136163
+0.0037109375 2.9961899090 0.0004572177
+0.0018554687 2.9958467297 0.0001145517
+0.0009277344 2.9957608905 0.0000286535
+0.0004638672 2.9957394280 0.0000071644
+0.0002319336 2.9957340622 0.0000017912
+0.0001159668 2.9957327207 0.0000004478
+
+Estimated value: 2.9957327207096545
+Number of iterations taken : 13
+Number of fucntion calls : 8193
+Diffirence between actual and estimated value : 4.471556636076457e-07
+Part (c)
+
+For m =  0.5
+Table:
+
+      h         T(h/2)     Error value
+0.7853981634 1.8549591311 0.0221890424
+0.3926990817 1.8540752278 0.0004767354
+0.1963495408 1.8540746773 0.0000002969
+
+Estimated value: 1.8540746773016665
+Number of iterations taken : 3
+Number of fucntion calls : 9
+
+For m =  0.8
+Table:
+
+      h         T(h/2)     Error value
+0.7853981634 2.2847455921 0.1124222561
+0.3926990817 2.2576215270 0.0120144430
+0.1963495408 2.2572054615 0.0001843277
+0.0981747704 2.2572053268 0.0000000596
+
+Estimated value: 2.257205326820873
+Number of iterations taken : 4
+Number of fucntion calls : 17
+
+For m =  0.95
+Table:
+
+      h         T(h/2)     Error value
+0.7853981634 3.2328552103 0.3294147895
+0.3926990817 2.9426673463 0.0986138866
+0.1963495408 2.9089732769 0.0115828047
+0.0981747704 2.9083375614 0.0002185838
+0.0490873852 2.9083372484 0.0000001076
+
+Estimated value: 2.9083372484446572
+Number of iterations taken : 5
+Number of fucntion calls : 33
+**********************q7********************
+
+
+
+

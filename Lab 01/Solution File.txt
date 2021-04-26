@@ -1,0 +1,120 @@
+
+-------------q1-------------
+
+Starting element chosen is : x1 =  10
+Number of iterations such that |xn+1 - xn| <= 10^(-5) is : 5
+By assuming the order to be 1, the ratio (aplha - xn+1)/(alpha-xn) was calculated at each step.
+After several iterations, the ratio appeared to converge to a certain fixed value.
+Hence, the order is 1
+
+-------------q2-------------
+
+For n = 1 , the root obtained is = 3.0
+For n = 5 , the root obtained is = 2.16
+For n = 20 , the root obtained is = 2.02
+For n = 100 , the root obtained is = 2.034
+For n = 200 , the root obtained is = 2.027
+For n = 400 , the root obtained is = 2.0305
+For n = 1000 , the root obtained is = 2.0284
+For n = 10000 , the root obtained is = 2.02882
+For n = 50000 , the root obtained is = 2.0287640000000002
+
+-------------q3-------------
+
+Method Used : Bisection Method
+Epsilon : 10^(-1)
+n (number of iterations) : 4
+aprroximate root of f(x) = x/2 - sinx in the interval [pi/2,pi] : 1.8653206380689396
+
+Method Used : Newton's Method
+Intial Estimate (from Bisection Method) : 1.8653206380689396
+Epsilon : 0.5 x 10^(-7)
+n (number of iterations) : 4
+The root (accurate upto 7 decimal places) of f(x) = x/2 - sinx in the interval [pi/2,pi] : 1.895494267033981
+
+-------------q4-------------
+
+Method Used : Bisection Method
+Epsilon : 10^(-1)
+n (number of iterations) : 4
+aprroximate root of f(x) = x/2 - sinx in the interval [pi/2,pi] : 1.8653206380689396
+
+Method Used : Fixed Point Method
+
+g(x) = (2sin(x)/x) + x - 1
+g(x) is continuous for all x in [pi/2,pi]
+pi/2 <= g(x) <= pi for all x in [pi/2,pi]
+
+Intial Estimate (from Bisection Method) : 1.8653206380689396
+Epsilon : 10^(-15)
+n (number of iterations) : 17
+root : 1.895494267033981
+
+It can be seen that g is a contraction with L = 0.363.
+The ratio log|(xn+1 - alpha)/(xn - alpha)|/log|(xn - alpha)/(xn-1 - alpha)| was calculated at each stage.
+Theoretically, the above ratio should converge to the order of convergence.
+Last three calulated ratios are as follows:
+0.99992 1.00017 0.99972
+The ratio converges to 1 after several iterations, and hence order of convergence = 1.
+​
+-------------q5-------------
+
+Method Used : Secant Method
+Approximate root found: -0.5791589060508369
+Number of iterations taken : 11
+
+-------------q6-------------
+
+Method Used : Bisection Method
+Epsilon : 10^(-1)
+n (number of iterations) : 4
+aprroximate root of f(x) in the interval [-1,0] : -0.5625
+
+Method Used : Iterative Method (as per Question)
+x0 (from Bisection Method) : -0.5625
+Epsilon : 10^(-15)
+n (number of iterations) : 9
+root : -0.5791589060508369
+
+The ratio log|(xn+1 - alpha)/(xn - alpha)|/log|(xn - alpha)/(xn-1 - alpha)| was calculated at each stage.
+Theoretically, the above ratio should converge to the order of convergence.
+Last three calulated ratios are as follows:
+1.00000 1.00000 0.99945
+The ratio converges to 1 after several iterations, and hence order of convergence = 1.
+
+-------------q7-------------
+
+Method Used : Bisection Method
+Epsilon : 10^(-1)
+n (number of iterations) : 4
+aprroximate root of f(x) in the interval [pi/2,pi] : 1.8653206380689396
+
+Method Used : Iterative Method (as per Question)
+x0 (from Bisection Method) : 1.8653206380689396
+Epsilon : 10^(-15)
+n (number of iterations) : 10
+root : 1.895494267033981
+
+The ratio log|(xn+1 - alpha)/(xn - alpha)|/log|(xn - alpha)/(xn-1 - alpha)| was calculated at each stage.
+Theoretically, the above ratio should converge to the order of convergence.
+Last three calulated ratios are as follows:
+1.00000 0.99995 1.00107
+The ratio converges to 1 after several iterations, and hence order of convergence = 1.
+
+​
+Method Used : Bisection Method
+Epsilon : 10^(-1)
+n (number of iterations) : 4
+aprroximate root of f(x) in the interval [-1,0] : -0.5625
+
+Method Used : Iterative Method (as per Question)
+x0 (from Bisection Method) : -0.5625
+Epsilon : 10^(-15)
+n (number of iterations) : 15
+root : -0.579158906050837
+
+The ratio log|(xn+1 - alpha)/(xn - alpha)|/log|(xn - alpha)/(xn-1 - alpha)| was calculated at each stage.
+Theoretically, the above ratio should converge to the order of convergence.
+Last three calulated ratios are as follows:
+1.92044 1.98875 1.99968
+The ratio converges to 2 after several iterations, and hence order of convergence = 2.
