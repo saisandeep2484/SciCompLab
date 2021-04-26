@@ -1,0 +1,76 @@
+************************q1*************************
+Part (a)
+Estimated Value (with n = 2): 0.192259377256879
+Actual Value of Integral: 0.192259357732796
+Error in the estimation: 1.9524082989219593e-08
+
+Part (b)
+Estimated Value (with n = 2): -0.1768200178862206
+Actual Value of Integral: -0.176820020121789
+Error in the estimation: 2.2355683970687323e-09
+
+Part (c)
+Estimated Value (with n = 2): 0.08875385361785668
+Actual Value of Integral: 0.08875528443525664
+Error in the estimation: 1.4308173999638685e-06
+
+************************q2*************************
+
+************************q3*************************
+Estimated Value through Gaussian Quadrature (two-point): 1.0909090909126549
+Actual Value of Integral: 1.09861228866811
+Error in the estimation: 0.007703197755455138
+
+Estimated Value through Trapezoidal rule: 1.3333333333333333
+Actual Value of Integral: 1.09861228866811
+Error in the estimation: 0.23472104466522326
+
+Estimated Value through Simpson's rule: 1.1111111111111112
+Actual Value of Integral: 1.09861228866811
+Error in the estimation: 0.012498822443001156
+
+************************q4*************************
+Estimated Value through Gaussian Quadrature (three-point): 0.6931216931216931
+Actual Value of Integral: 0.6931471805599453
+Error in the estimation: 2.54874382521475e-05
+
+Estimated Value through Simpson's 1/3 rule: 0.6931545306545307
+Actual Value of Integral: 0.6931471805599453
+Error in the estimation: 7.350094585412137e-06
+
+************************q5*************************
+First Method:
+a = 0.16666666666666666
+b = 0.6666666666666666
+c = 0.16666666666666666
+Error Bound for first method = 0.00034722222222222224 max|f⁴(x)|
+Seond Method
+alpha = 0.6666666666666666
+beta = -0.3333333333333333
+gamma = 0.6666666666666666
+Error Bound for second method = 0.00030381944444444445 max|f⁴(x)|
+
+************************q6*************************
+Estimated Value through Gaussian Quadrature ( n =  1 ): -0.76
+Actual Value of Integral: -0.915
+Error in the estimation: 0.16
+
+Estimated Value through Gaussian Quadrature ( n =  2 ): -0.838
+Actual Value of Integral: -0.915
+Error in the estimation: 0.08
+
+Estimated Value through Gaussian Quadrature ( n =  3 ): -0.867
+Actual Value of Integral: -0.915
+Error in the estimation: 0.05
+
+Estimated Value through Gaussian Quadrature ( n =  4 ): -0.883
+Actual Value of Integral: -0.915
+Error in the estimation: 0.03
+
+Estimated Value through Gaussian Quadrature ( n =  5 ): -0.892
+Actual Value of Integral: -0.915
+Error in the estimation: 0.02
+
+
+
+
