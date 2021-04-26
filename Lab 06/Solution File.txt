@@ -1,0 +1,197 @@
+
+-------------q1-------------
+Part (a)
+Number of nodes: 3
+At x = 0.0 , the estimated value of y is : 1
+At x = 0.5 , the estimated value of y is : 1.18394
+At x = 1.0 , the estimated value of y is : 1.436252
+
+Part (b)
+Number of nodes: 3
+At x = 1.0 , the estimated value of y is : 2
+At x = 1.5 , the estimated value of y is : 2.333333
+At x = 2.0 , the estimated value of y is : 2.708333
+
+Part (c)
+Number of nodes: 5
+At x = 2.0 , the estimated value of y is : 2
+At x = 2.25 , the estimated value of y is : 2.207107
+At x = 2.5 , the estimated value of y is : 2.490999
+At x = 2.75 , the estimated value of y is : 2.85468
+At x = 3.0 , the estimated value of y is : 3.302596
+
+Part (d)
+Number of nodes: 5
+At x = 1.0 , the estimated value of y is : 2
+At x = 1.25 , the estimated value of y is : 1.227324
+At x = 1.5 , the estimated value of y is : 0.83215
+At x = 1.75 , the estimated value of y is : 0.570447
+At x = 2.0 , the estimated value of y is : 0.378827
+
+-------------q2-------------
+Part (a)
+Number of nodes: 3
+At x = 0.0 , the estimated value of y is : 1
+At x = 0.0 , the error value is : 0.0
+At x = 0.5 , the estimated value of y is : 1.18394
+At x = 0.5 , the error value is : 0.030083
+At x = 1.0 , the estimated value of y is : 1.436252
+At x = 1.0 , the error value is : 0.053628
+
+Part (b)
+Number of nodes: 3
+At x = 1.0 , the estimated value of y is : 2
+At x = 1.0 , the error value is : 0.0
+At x = 1.5 , the estimated value of y is : 2.333333
+At x = 1.5 , the error value is : 0.020769
+At x = 2.0 , the estimated value of y is : 2.708333
+At x = 2.0 , the error value is : 0.033324
+
+Part (c)
+Number of nodes: 5
+At x = 2.0 , the estimated value of y is : 2
+At x = 2.0 , the error value is : 0.0
+At x = 2.25 , the estimated value of y is : 2.207107
+At x = 2.25 , the error value is : 0.037014
+At x = 2.5 , the estimated value of y is : 2.490999
+At x = 2.5 , the error value is : 0.073453
+At x = 2.75 , the estimated value of y is : 2.85468
+At x = 2.75 , the error value is : 0.110513
+At x = 3.0 , the estimated value of y is : 3.302596
+At x = 3.0 , the error value is : 0.14869
+
+Part (d)
+Number of nodes: 5
+At x = 1.0 , the estimated value of y is : 2
+At x = 1.0 , the error value is : 0.0
+At x = 1.25 , the estimated value of y is : 1.227324
+At x = 1.25 , the error value is : 0.175875
+At x = 1.5 , the estimated value of y is : 0.83215
+At x = 1.5 , the error value is : 0.18426
+At x = 1.75 , the estimated value of y is : 0.570447
+At x = 1.75 , the error value is : 0.167563
+At x = 2.0 , the estimated value of y is : 0.378827
+At x = 2.0 , the error value is : 0.15086
+
+-------------q3-------------
+
+Part (a)
+Number of nodes: 21
+******************
+At x = 1.0 , the estimated value of y is : -1
+At x = 1.0 , the actual value of y is : -1.0
+At x = 1.0 , the error value is : 0.0
+******************
+At x = 1.05 , the estimated value of y is : -0.95
+At x = 1.05 , the actual value of y is : -0.952381
+At x = 1.05 , the error value is : 0.002381
+******************
+At x = 1.1 , the estimated value of y is : -0.904535
+At x = 1.1 , the actual value of y is : -0.909091
+At x = 1.1 , the error value is : 0.004555
+******************
+At x = 1.15 , the estimated value of y is : -0.863007
+At x = 1.15 , the actual value of y is : -0.869565
+At x = 1.15 , the error value is : 0.006558
+******************
+At x = 1.2 , the estimated value of y is : -0.824917
+At x = 1.2 , the actual value of y is : -0.833333
+At x = 1.2 , the error value is : 0.008416
+******************
+At x = 1.25 , the estimated value of y is : -0.789848
+At x = 1.25 , the actual value of y is : -0.8
+At x = 1.25 , the error value is : 0.010152
+******************
+At x = 1.3 , the estimated value of y is : -0.757447
+At x = 1.3 , the actual value of y is : -0.769231
+At x = 1.3 , the error value is : 0.011784
+******************
+At x = 1.35 , the estimated value of y is : -0.727415
+At x = 1.35 , the actual value of y is : -0.740741
+At x = 1.35 , the error value is : 0.013326
+******************
+At x = 1.4 , the estimated value of y is : -0.699495
+At x = 1.4 , the actual value of y is : -0.714286
+At x = 1.4 , the error value is : 0.014791
+******************
+At x = 1.45 , the estimated value of y is : -0.673467
+At x = 1.45 , the actual value of y is : -0.689655
+At x = 1.45 , the error value is : 0.016188
+******************
+At x = 1.5 , the estimated value of y is : -0.649141
+At x = 1.5 , the actual value of y is : -0.666667
+At x = 1.5 , the error value is : 0.017525
+******************
+At x = 1.55 , the estimated value of y is : -0.62635
+At x = 1.55 , the actual value of y is : -0.645161
+At x = 1.55 , the error value is : 0.018811
+******************
+At x = 1.6 , the estimated value of y is : -0.604949
+At x = 1.6 , the actual value of y is : -0.625
+At x = 1.6 , the error value is : 0.020051
+******************
+At x = 1.65 , the estimated value of y is : -0.584812
+At x = 1.65 , the actual value of y is : -0.606061
+At x = 1.65 , the error value is : 0.021249
+******************
+At x = 1.7 , the estimated value of y is : -0.565825
+At x = 1.7 , the actual value of y is : -0.588235
+At x = 1.7 , the error value is : 0.02241
+******************
+At x = 1.75 , the estimated value of y is : -0.54789
+At x = 1.75 , the actual value of y is : -0.571429
+At x = 1.75 , the error value is : 0.023539
+******************
+At x = 1.8 , the estimated value of y is : -0.530918
+At x = 1.8 , the actual value of y is : -0.555556
+At x = 1.8 , the error value is : 0.024637
+******************
+At x = 1.85 , the estimated value of y is : -0.514832
+At x = 1.85 , the actual value of y is : -0.540541
+At x = 1.85 , the error value is : 0.025708
+******************
+At x = 1.9 , the estimated value of y is : -0.499561
+At x = 1.9 , the actual value of y is : -0.526316
+At x = 1.9 , the error value is : 0.026754
+******************
+At x = 1.95 , the estimated value of y is : -0.485043
+At x = 1.95 , the actual value of y is : -0.512821
+At x = 1.95 , the error value is : 0.027778
+******************
+At x = 2.0 , the estimated value of y is : -0.47122
+At x = 2.0 , the actual value of y is : -0.5
+At x = 2.0 , the error value is : 0.02878
+
+Part (b)
+***********************
+The value of x : 1.052
+The estimated value of y is (Interpolation): -0.948099
+The actual value of y: -0.9505703422053231
+The error between them is: 0.002472
+***********************
+The value of x : 1.555
+The estimated value of y is (Interpolation): -0.62415
+The actual value of y: -0.6430868167202572
+The error between them is: 0.018937
+***********************
+The value of x : 1.978
+The estimated value of y is (Interpolation): -0.477219
+The actual value of y: -0.5055611729019212
+The error between them is: 0.028342
+
+-------------q4-------------
+
+-------------q5-------------
+Number of nodes: 7
+For x = 3 , the estimated value of y is : -785.2886498351329
+For x = 3 , the actual value of y is : 0.1411200080598672
+The error between actual and real value is: 785.4297698431927
+
+If we decrease the value of h to lesser values (decrease by 10 times), then:
+Number of nodes: 61
+For x = 3 , the estimated value of y is : 0.14133753721110437
+For x = 3 , the actual value of y is : 0.1411200080598672
+The error between actual and real value is: 0.00021752915123715577
+
+The maximum error bound is (with h = 0.5): 0.75
+The absolute error is much more than the theoretical max error.
